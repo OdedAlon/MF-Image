@@ -1,0 +1,19 @@
+/*  BASE  */
+@import './helpers';
+@import './base'; 
+@import './layout';
+
+// CMPS
+
+@import './cmps/img-search';
+@import './cmps/saved-img-list';
+@import './cmps/saved-img-preview';
+@import './cmps/searched-img-preview';
+@import './cmps/app-header';
+@import './cmps/app-footer';
+
+// VIEWS
+
+@import './views/home-page';
+@import './views/search';
+

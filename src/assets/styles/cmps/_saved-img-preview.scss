@@ -1,0 +1,35 @@
+.saved-img-preview {
+    
+    position: relative;
+    img {
+        width: 150px;
+        height: 99px;
+        border-radius: 6px;
+    }
+    .data, .action {
+        display: none; 
+        position: absolute;
+    }
+    .action {
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: rgb(255, 181, 181);
+        border: 1px solid rgb(255, 181, 181);
+        background-color: rgba(251, 0, 0, 0.691);
+        font-size: 1.2rem;
+    }
+    .data {
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        background-color: rgba(128, 128, 128, 0.555);
+        font-weight: bold;
+    }
+    &:hover {
+        .data, .action {
+            display: block;   
+        }
+    }
+}

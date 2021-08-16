@@ -1,0 +1,4 @@
+This webapp was built using Vue (VueX, VueRouter).
+To run it, first write the command: 'npm i',and wait for the download to complete.
+Then write: 'npm run server'.
+Then write in the URL bar of the browser: 'http://localhost:8080/'.
